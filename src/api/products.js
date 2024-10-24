@@ -1,5 +1,7 @@
 import axios from "./axios";
 
+/* PRODUCTOS */
+
 //Llamada al Api para obtener todos los productos
 export const getProductsRequest = () => axios.get('/products');
 
